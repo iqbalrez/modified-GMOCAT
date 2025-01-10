@@ -1,0 +1,27 @@
+2024-12-17 07:03:21,623 - Training Model: GCATAgent_GCAT_20
+2024-12-17 07:03:21,791 - train/val/test size: 793, 99,99
+2024-12-17 07:03:21,970 - models/dbekt22/NCD_dbekt22_20.pt
+2024-12-17 07:03:21,973 - Hype-Parameters: Namespace(seed=145, environment='GCATEnv', data_path='./data/', data_name='dbekt22', agent='GCATAgent', FA='GCAT', CDM='NCD', T=20, ST=[1, 5, 10, 20, 25, 30, 40, 50], gpu_no='0', learning_rate=0.001, training_epoch=50, cdm_lr=0.02, cdm_epoch=4, cdm_bs=128, train_bs=128, test_bs=1024, batch=128, gamma=0.5, latent_factor=256, n_block=1, graph_block=1, n_head=1, dropout_rate=0.1, policy_epoch=1, morl_weights=[1, 1, 1], emb_dim=128, use_graph=True, use_attention=True, store_action=False, student_ids=[0], target_concepts=[0], model='GCATAgent_GCAT_20', user_num=991, item_num=213, know_num=93)
+2024-12-17 07:05:16,001 - policy loss: 2.2568
+2024-12-17 07:05:16,002 - epoch: 0, flag: training
+2024-12-17 07:05:27,054 - epoch: 0, flag: evaluation
+2024-12-17 07:05:37,896 - epoch: 0, flag: evaluation
+2024-12-17 07:05:45,636 - epoch: 0, flag: evaluation
+2024-12-17 07:05:45,637 - Mean Metrics: 
+2024-12-17 07:05:45,637 - 1AUC: 0.7664, ACC: 0.7796
+2024-12-17 07:05:45,638 - 5AUC: 0.757, ACC: 0.7847
+2024-12-17 07:05:45,638 - 10AUC: 0.7469, ACC: 0.783
+2024-12-17 07:05:45,638 - 20AUC: 0.7537, ACC: 0.7765
+2024-12-17 07:05:45,643 - 25AUC: nan, ACC: nan
+2024-12-17 07:05:45,644 - 30AUC: nan, ACC: nan
+2024-12-17 07:05:45,644 - 40AUC: nan, ACC: nan
+2024-12-17 07:05:45,644 - 50AUC: nan, ACC: nan
+2024-12-17 07:05:45,644 - 1AUC: 0.7620251199785213,0.7672632338291367,0.7699178203903438, ACC: 0.7758053911900066,0.7767915844838922,0.7863247863247863
+2024-12-17 07:05:45,644 - 5AUC: 0.7649922211727931,0.7501669159736557,0.7559066981146085, ACC: 0.7804076265614727,0.7856673241288626,0.7879684418145957
+2024-12-17 07:05:45,645 - 10AUC: 0.7618168655521409,0.7408870748639221,0.7381012191439759, ACC: 0.784681130834977,0.7840236686390533,0.7804076265614727
+2024-12-17 07:05:45,645 - 20AUC: 0.7536505952181188, ACC: 0.7764628533859304
+2024-12-17 07:05:45,645 - 25AUC: , ACC: 
+2024-12-17 07:05:45,645 - 30AUC: , ACC: 
+2024-12-17 07:05:45,645 - 40AUC: , ACC: 
+2024-12-17 07:05:45,645 - 50AUC: , ACC: 
+2024-12-17 07:05:45,645 - Best Mean Metrics: 

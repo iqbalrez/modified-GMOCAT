@@ -1,0 +1,6 @@
+2024-12-08 04:53:43,433 - Training Model: GCATAgent_GCAT_20
+2024-12-08 04:53:44,089 - train/val/test size: 1322, 165,165
+2024-12-08 04:53:44,348 - models/assist2017/NCD_assist2017_20.pt
+2024-12-08 04:53:44,353 - Hype-Parameters: Namespace(seed=145, environment='GCATEnv', data_path='./data/', data_name='assist2017', agent='GCATAgent', FA='GCAT', CDM='NCD', T=20, ST=[1, 5, 10, 20], gpu_no='0', learning_rate=0.001, training_epoch=50, cdm_lr=0.02, cdm_epoch=4, cdm_bs=128, train_bs=128, test_bs=1024, batch=128, gamma=0.5, latent_factor=256, n_block=1, graph_block=1, n_head=1, dropout_rate=0.1, policy_epoch=1, morl_weights=[1, 1, 1], emb_dim=128, use_graph=True, use_attention=True, store_action=False, student_ids=[0], target_concepts=[0], model='GCATAgent_GCAT_20', user_num=1652, item_num=3163, know_num=102)
+2024-12-08 05:02:26,621 - policy loss: 1.3898
+2024-12-08 05:02:26,621 - epoch: 0, flag: training

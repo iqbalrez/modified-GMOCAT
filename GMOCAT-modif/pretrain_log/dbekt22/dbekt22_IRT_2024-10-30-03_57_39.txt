@@ -1,0 +1,7 @@
+2024-10-30 03:57:39,503 - Pre Training CDM: IRT_dbekt22_20
+2024-10-30 03:57:39,653 - user num: 991, item num: 213, know_num: 93
+2024-10-30 03:57:39,655 - use user num: 793
+2024-10-30 03:57:39,963 - Hype-Parameters: Namespace(seed=145, data_name='dbekt22', CDM='IRT', T=20, gpu_no='0', learning_rate=0.002, training_epoch=100, batch_size=2048, path='IRT_dbekt22_20')
+2024-10-30 03:57:39,963 - train on cuda
+2024-10-30 03:57:45,005 - Epoch [1]: loss=0.67986
+2024-10-30 03:57:45,012 - Store model

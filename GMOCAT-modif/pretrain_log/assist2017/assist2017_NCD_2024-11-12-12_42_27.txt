@@ -1,0 +1,7 @@
+2024-11-12 12:42:27,831 - Pre Training CDM: NCD_assist2017_20
+2024-11-12 12:42:28,229 - user num: 1652, item num: 3163, know_num: 102
+2024-11-12 12:42:28,231 - use user num: 1322
+2024-11-12 12:42:28,710 - Hype-Parameters: Namespace(seed=145, data_name='assist2017', CDM='NCD', T=20, gpu_no='0', learning_rate=0.002, training_epoch=100, batch_size=2048, path='NCD_assist2017_20')
+2024-11-12 12:42:28,710 - train on cuda
+2024-11-12 12:42:39,772 - Epoch [1]: loss=1.17870
+2024-11-12 12:42:39,796 - Store model
